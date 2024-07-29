@@ -16,7 +16,7 @@ const Scanner = () => {
     const videoConstraints = {
         width: 1280,
         height: 720,
-        facingMode: "environment" as const
+        facingMode: "environment"
     };
 
     const fetchPrice = useCallback(async (sku: string) => {
