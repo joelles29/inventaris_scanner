@@ -100,7 +100,7 @@ const Scanner = () => {
         if (isLoggedIn) {
             const interval = setInterval(() => {
                 capture();
-            }, 1500); // Increase interval to 1.5 seconds to reduce load
+            }, 100); // Increase interval to 1.5 seconds to reduce load
 
             return () => clearInterval(interval);
         }

@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import type { NextPage } from 'next';
+import type { ReactElement } from 'react';
 
-const Home = () => {
+const Home: NextPage = (): ReactElement => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-400 to-purple-900 text-white">
       <h1 className="text-4xl font-bold mb-8">Welcome to Plant Label Scanner</h1>
