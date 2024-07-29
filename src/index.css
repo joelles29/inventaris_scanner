@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-in {
+  @apply transition-opacity duration-500;
+  opacity: 0;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
